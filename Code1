@@ -1,0 +1,13 @@
+Scanner sc = new Scanner(System.in);
+        int num1;
+        int num2;
+        
+        System.out.print("Enter a number: ");
+        num1 = sc.nextInt();
+        
+        System.out.print("Enter another number: ");
+        num2 = sc.nextInt();
+        
+        System.out.println("The sum of your numbers is: " + (num1 + num2));
+        System.out.println("The difference between your numbers is: "  num1 - num2);
+        System.out.println("The average of your numbers is: " + (num1 + num2) * 2);
